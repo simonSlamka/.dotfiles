@@ -11,5 +11,5 @@ if [ $((hr % 6)) -eq 0 ]; then
 else
     randTheme=$(echo "$themes" | shuf -n 1)
 
-    wal --theme "$random_theme"
+    wal --theme "$randTheme"
 fi
